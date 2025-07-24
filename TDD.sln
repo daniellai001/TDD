@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.UnitTest", "TDD.UnitTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{C1ADD600-519F-499B-B091-A68C74055C92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounting", "Accounting\Accounting.csproj", "{B79A46C9-EBB7-4E3B-9A00-56EE097DC6F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{C1ADD600-519F-499B-B091-A68C74055C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1ADD600-519F-499B-B091-A68C74055C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1ADD600-519F-499B-B091-A68C74055C92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79A46C9-EBB7-4E3B-9A00-56EE097DC6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79A46C9-EBB7-4E3B-9A00-56EE097DC6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79A46C9-EBB7-4E3B-9A00-56EE097DC6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79A46C9-EBB7-4E3B-9A00-56EE097DC6F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

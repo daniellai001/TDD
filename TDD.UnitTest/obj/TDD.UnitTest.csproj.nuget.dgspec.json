@@ -1,109 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Users/angus/Titansoft/Workshop/TDD/TDD.UnitTest/TDD.UnitTest.csproj": {}
+    "C:\\Projects\\BackEnd\\agentnuget\\TDD\\TDD.UnitTest\\TDD.UnitTest.csproj": {}
   },
   "projects": {
-    "/Users/angus/Titansoft/Workshop/TDD/TDD.UnitTest/TDD.UnitTest.csproj": {
+    "C:\\Projects\\BackEnd\\agentnuget\\TDD\\Accounting\\Accounting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/angus/Titansoft/Workshop/TDD/TDD.UnitTest/TDD.UnitTest.csproj",
-        "projectName": "TDD.UnitTest",
-        "projectPath": "/Users/angus/Titansoft/Workshop/TDD/TDD.UnitTest/TDD.UnitTest.csproj",
-        "packagesPath": "/Users/angus/.nuget/packages/",
-        "outputPath": "/Users/angus/Titansoft/Workshop/TDD/TDD.UnitTest/obj/",
+        "projectUniqueName": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\Accounting\\Accounting.csproj",
+        "projectName": "Accounting",
+        "projectPath": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\Accounting\\Accounting.csproj",
+        "packagesPath": "C:\\Users\\daniel.lai55\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\Accounting\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/angus/.nuget/NuGet/NuGet.Config"
+          "C:\\Projects\\BackEnd\\agentnuget\\NuGet.Config",
+          "C:\\Users\\daniel.lai55\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nugetv3.coreop.net/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "/Users/angus/Titansoft/Workshop/TDD/WebApplication1/WebApplication1.csproj": {
-                "projectPath": "/Users/angus/Titansoft/Workshop/TDD/WebApplication1/WebApplication1.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Mvc.Testing": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.8.0, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.14.0, )"
-            },
-            "NUnit.Analyzers": {
-              "target": "Package",
-              "version": "[3.9.0, )"
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[4.5.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/angus/Titansoft/Workshop/TDD/WebApplication1/WebApplication1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/angus/Titansoft/Workshop/TDD/WebApplication1/WebApplication1.csproj",
-        "projectName": "WebApplication1",
-        "projectPath": "/Users/angus/Titansoft/Workshop/TDD/WebApplication1/WebApplication1.csproj",
-        "packagesPath": "/Users/angus/.nuget/packages/",
-        "outputPath": "/Users/angus/Titansoft/Workshop/TDD/WebApplication1/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/angus/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nugetv3.coreop.net/v3/index.json": {}
         },
@@ -117,6 +41,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -151,7 +80,195 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\BackEnd\\agentnuget\\TDD\\TDD.UnitTest\\TDD.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\TDD.UnitTest\\TDD.UnitTest.csproj",
+        "projectName": "TDD.UnitTest",
+        "projectPath": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\TDD.UnitTest\\TDD.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\daniel.lai55\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\TDD.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Projects\\BackEnd\\agentnuget\\NuGet.Config",
+          "C:\\Users\\daniel.lai55\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetv3.coreop.net/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Projects\\BackEnd\\agentnuget\\TDD\\Accounting\\Accounting.csproj": {
+                "projectPath": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\Accounting\\Accounting.csproj"
+              },
+              "C:\\Projects\\BackEnd\\agentnuget\\TDD\\WebApplication1\\WebApplication1.csproj": {
+                "projectPath": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\WebApplication1\\WebApplication1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\BackEnd\\agentnuget\\TDD\\WebApplication1\\WebApplication1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\WebApplication1\\WebApplication1.csproj",
+        "projectName": "WebApplication1",
+        "projectPath": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\daniel.lai55\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\WebApplication1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Projects\\BackEnd\\agentnuget\\NuGet.Config",
+          "C:\\Users\\daniel.lai55\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetv3.coreop.net/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

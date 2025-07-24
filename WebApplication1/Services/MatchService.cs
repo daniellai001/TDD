@@ -42,7 +42,7 @@ public class MatchService(IMatchRepository matchRepository) : IMatchService
                 break;
             case MatchEvent.AwayCancel:
                 var resultWithoutSemicolonAway = match.MatchResult.Replace(";", "");
-                if (resultWithoutSemicolonAway.Length > 0 && resultWithoutSemicolonAway[resultWithoutSemicolonAway.Length - 1] == 'A')
+                if (resultWithoutSemicolonAway.Length > 0 && resultWithoutSemicolonAway[^1] == 'A')
                 {
                     var lastAIndex = match.MatchResult.LastIndexOf('A');
                     match.MatchResult = match.MatchResult.Remove(lastAIndex, 1);
@@ -52,6 +52,8 @@ public class MatchService(IMatchRepository matchRepository) : IMatchService
                     throw new UpdateMatchResultException(matchId, matchEvent, match.MatchResult);
                 }
                 break;
+            default:
+                throw new ArgumentOutOfRangeException(nameof(matchEvent), matchEvent, null);
         }
 
         return await matchRepository.SaveMatchAsync(match);

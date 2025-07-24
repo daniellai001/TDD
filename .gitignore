@@ -4,20 +4,23 @@
 *.swp
 *.swo
 
-# .NET files
-bin/
-obj/
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Visual Studio / Visual Studio Code
+.vs/
+.vscode/
 *.user
 *.suo
 *.userprefs
-*.DS_Store
-
-# Visual Studio files
-.vs/
 *.rsuser
 *.tmp
 
-# Build results
+# .NET build output
+bin/
+obj/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -31,12 +34,30 @@ bld/
 [Oo]bj/
 [Ll]og/
 
-# Packages
+# .NET compiled files
+*.dll
+*.exe
+*.pdb
+*.cache
+apphost
+apphost.exe
+
+# NuGet packages
 *.nupkg
 *.snupkg
+packages/
 
-# Logs
+# Test results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Logs and temporary files
 *.log
+*.tmp
+*.temp
 
 # OS generated files
 .DS_Store
@@ -46,3 +67,31 @@ bld/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Backup files
+*.bak
+*.orig
+
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# JetBrains specific
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/**/usage.statistics.xml
+**/.idea/**/dictionaries
+**/.idea/**/shelf
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates

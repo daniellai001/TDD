@@ -1,0 +1,48 @@
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# .NET files
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.DS_Store
+
+# Visual Studio files
+.vs/
+*.rsuser
+*.tmp
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Packages
+*.nupkg
+*.snupkg
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

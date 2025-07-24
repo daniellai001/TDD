@@ -3351,34 +3351,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\daniel.lai55\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/angus/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\TDD.UnitTest\\TDD.UnitTest.csproj",
+      "projectUniqueName": "/Users/angus/Titansoft/Workshop/TDD/TDD.UnitTest/TDD.UnitTest.csproj",
       "projectName": "TDD.UnitTest",
-      "projectPath": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\TDD.UnitTest\\TDD.UnitTest.csproj",
-      "packagesPath": "C:\\Users\\daniel.lai55\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\TDD.UnitTest\\obj\\",
+      "projectPath": "/Users/angus/Titansoft/Workshop/TDD/TDD.UnitTest/TDD.UnitTest.csproj",
+      "packagesPath": "/Users/angus/.nuget/packages/",
+      "outputPath": "/Users/angus/Titansoft/Workshop/TDD/TDD.UnitTest/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Projects\\BackEnd\\agentnuget\\NuGet.Config",
-        "C:\\Users\\daniel.lai55\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/angus/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nugetv3.coreop.net/v3/index.json": {}
       },
@@ -3386,8 +3376,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Projects\\BackEnd\\agentnuget\\TDD\\WebApplication1\\WebApplication1.csproj": {
-              "projectPath": "C:\\Projects\\BackEnd\\agentnuget\\TDD\\WebApplication1\\WebApplication1.csproj"
+            "/Users/angus/Titansoft/Workshop/TDD/WebApplication1/WebApplication1.csproj": {
+              "projectPath": "/Users/angus/Titansoft/Workshop/TDD/WebApplication1/WebApplication1.csproj"
             }
           }
         }
@@ -3396,11 +3386,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3448,7 +3433,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

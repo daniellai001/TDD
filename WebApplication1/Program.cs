@@ -1,4 +1,5 @@
 using WebApplication1.Repositories;
+using WebApplication1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,8 +9,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
-// Register repositories
+// Register repositories and services
 builder.Services.AddSingleton<IMatchRepository, MatchRepository>();
+builder.Services.AddSingleton<IMatchService, MatchService>();
 
 var app = builder.Build();
 

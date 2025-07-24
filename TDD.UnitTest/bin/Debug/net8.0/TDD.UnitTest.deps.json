@@ -315,7 +315,6 @@
           "System.Text.Encoding": "8.0.0.0",
           "System.Text.Encoding.Extensions": "8.0.0.0",
           "System.Text.Encodings.Web.Reference": "8.0.0.0",
-          "System.Text.Json.Reference": "8.0.0.0",
           "System.Text.RegularExpressions": "8.0.0.0",
           "System.Threading.Channels": "8.0.0.0",
           "System.Threading": "8.0.0.0",
@@ -993,13 +992,31 @@
         }
       },
       "System.Diagnostics.DiagnosticSource/8.0.0": {},
-      "System.Diagnostics.EventLog/8.0.0": {},
+      "System.Diagnostics.EventLog/8.0.0": {
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {},
       "System.Reflection.Metadata/1.6.0": {},
       "System.Text.Encodings.Web/8.0.0": {},
       "System.Text.Json/8.0.4": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.724.31311"
+          }
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {}
         }
       },
       "WebApplication1/1.0.0": {
@@ -1008,10 +1025,7 @@
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
-          "WebApplication1.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "WebApplication1.dll": {}
         },
         "compile": {
           "WebApplication1.dll": {}
@@ -2646,12 +2660,6 @@
       "System.Text.Encodings.Web.Reference/8.0.0.0": {
         "compile": {
           "System.Text.Encodings.Web.dll": {}
-        },
-        "compileOnly": true
-      },
-      "System.Text.Json.Reference/8.0.0.0": {
-        "compile": {
-          "System.Text.Json.dll": {}
         },
         "compileOnly": true
       },
@@ -4577,11 +4585,6 @@
       "sha512": ""
     },
     "System.Text.Encodings.Web.Reference/8.0.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Text.Json.Reference/8.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
